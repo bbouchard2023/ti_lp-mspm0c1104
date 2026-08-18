@@ -1,0 +1,53 @@
+V "GNAT Lib v15"
+A -Og
+A -gnatA
+A --RTS=/home/brendan/.local/share/alire/toolchains/gnat_arm_elf_15.3.1_163eb73f/arm-eabi/lib/gnat/light-cortex-m0p/
+A -mfloat-abi=soft
+A -gnatA
+A -gnatWb
+A -gnatiw
+A -gnatws
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0plus
+A -fno-tree-loop-distribute-patterns
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -mlibarch=armv6s-m
+A -march=armv6s-m
+P ZX
+
+RN
+RR NO_EXCEPTION_PROPAGATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+
+U ada_main%b		b__mspm0c1104.adb	34ab53e2 NE OO PK IL
+Z system%s		system.ads		system.ali
+
+U ada_main%s		b__mspm0c1104.ads	ffda50e2 EE NE OO PK IL
+W system%s		system.ads		system.ali
+
+D b__mspm0c1104.ads	20260817203154 49fe1728 ada_main%s
+D b__mspm0c1104.adb	20260817203154 7d5544ca ada_main%b
+D system.ads		20260701215315 b62447ca system%s
+G a e
+G c Z s b [adainit ada_main 18 14 none]
+G c Z s b [main ada_main 21 14 none]
+X 1 b__mspm0c1104.ads
+5K9*ada_main 29l5 29e13 2|7b14 38l5 38t13
+8a4*GNAT_Version{string} 10r22 12r54
+12m4*GNAT_Version_Address{3|85M9} 13r22
+15a4*Ada_Main_Program_Name{string} 16r22 2|21r52
+18U14*adainit 19i<c,adainit>22 2|11b14 15l8 15t15 25s7
+21U14*main 22i<c,main>22 2|20b14 27t7
+X 2 b__mspm0c1104.adb
+17U14 Ada_Main_Program 18b<ada,_ada_mspm0c1104>24 26s7
+21m7 Ensure_Reference{3|85M9} 22r24
+X 3 system.ads
+55K9*System 1|4w6 12r36 2|21r34 3|169e11
+85M9*Address 1|12r43 2|21r41
+

@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__mspm0c1104.o
+[PROJECT FILES]
+/home/brendan/ti_lp-mspm0c1104/mspm0c1104/mspm0c1104.gpr
+20260817203113 fea6e7fdc3382e0c3989c0b9dba9d148
+/home/brendan/ti_lp-mspm0c1104/mspm0c1104/config/mspm0c1104_config.gpr
+20260817203153 71bd35e5f3df4faff5f76434681dd4fb
+[BOUND OBJECT FILES]
+/home/brendan/ti_lp-mspm0c1104/mspm0c1104/obj/development/mspm0c1104.o
+[GENERATED SOURCE FILES]
+b__mspm0c1104.ads
+b__mspm0c1104.adb
+b__mspm0c1104.ali
+[RESULTING OPTIONS]
+-L/home/brendan/ti_lp-mspm0c1104/mspm0c1104/obj/development/
+-L/home/brendan/ti_lp-mspm0c1104/mspm0c1104/obj/development/
+-L/home/brendan/.local/share/alire/toolchains/gnat_arm_elf_15.3.1_163eb73f/arm-eabi/lib/gnat/light-cortex-m0p/adalib/
+-static
+/home/brendan/.local/share/alire/toolchains/gnat_arm_elf_15.3.1_163eb73f/arm-eabi/lib/gnat/light-cortex-m0p/adalib/libgnat.a

@@ -1,0 +1,43 @@
+with "config/mspm0c1104_example_config.gpr";
+project Mspm0c1104_Example is
+
+	for Source_Dirs use ("src/", "config/");
+	for Object_Dir use "obj/" & Mspm0c1104_Example_Config.Build_Profile;
+	for Create_Missing_Dirs use "True";
+	for Exec_Dir use "bin";
+	for Main use ("mspm0c1104_example.adb");
+	for Target use "arm-elf";
+	for Runtime ("Ada") use "light-cortex-m0p";
+
+	package Compiler is
+	  for Default_Switches ("Ada") use Mspm0c1104_Example_Config.Ada_Compiler_Switches;
+	end Compiler;
+
+	package Binder is
+	  for Switches ("Ada") use ("-Es"); --  Symbolic traceback
+	end Binder;
+
+	package Install is
+	  for Artifacts (".") use ("share");
+	end Install;
+
+	package Device_Configuration is
+		for CPU_Name use "ARM Cortex-M0P";
+		for Float_Handling use "";
+		
+		for Number_Of_Interrupts use "";
+		
+		for Memories use ("", "");
+		
+		for Boot_Memory use "";
+		
+		for Mem_Kind ("RAM") use "";
+		for Address ("RAM") use "";
+		for Size ("RAM") use "";
+		
+		for Mem_Kind ("FLASH") use "";
+		for Address ("FLASH") use "";
+		for Size ("FLASH") use "";	
+	end	Device_Configuration;
+	
+end Mspm0c1104_Example;

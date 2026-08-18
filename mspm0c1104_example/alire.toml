@@ -1,0 +1,15 @@
+name = "mspm0c1104_example"
+description = "Example of use of MSPM0C1104 driver"
+version = "0.1.0-dev"
+
+authors = ["Brendan Bouchard"]
+maintainers = ["Brendan Bouchard <bbouchard2023@my.fit.edu>"]
+maintainers-logins = ["bbouchard2023"]
+licenses = "BSD-3-Clause"
+website = ""
+tags = []
+
+executables = ["mspm0c1104_example"]
+
+[[depends-on]]
+gnat_arm_elf = "^15.3.1"

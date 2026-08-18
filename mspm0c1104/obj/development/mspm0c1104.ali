@@ -1,0 +1,57 @@
+V "GNAT Lib v15"
+M P W=8
+A -Og
+A -gnatA
+A --RTS=/home/brendan/.local/share/alire/toolchains/gnat_arm_elf_15.3.1_163eb73f/arm-eabi/lib/gnat/light-cortex-m0p/
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=soft
+A -mcpu=cortex-m0plus
+A -fno-tree-loop-distribute-patterns
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -mlibarch=armv6s-m
+A -march=armv6s-m
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U mspm0c1104%b		mspm0c1104.adb		308abf1c NE OO SU
+
+D mspm0c1104.adb	20260817203113 308abf1c mspm0c1104%b
+D system.ads		20260701215315 b62447ca system%s
+G a e
+G c Z b b [mspm0c1104 standard 1 11 none]
+X 1 mspm0c1104.adb
+1U11*Mspm0c1104 1b11 4l5 4t15
+
