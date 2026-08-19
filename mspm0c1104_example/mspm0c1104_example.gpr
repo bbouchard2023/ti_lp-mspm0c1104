@@ -23,21 +23,21 @@ project MSPM0C1104_Example is
 
 	package Device_Configuration is
 		for CPU_Name use "ARM Cortex-M0P";
-		for Float_Handling use "";
+		for Float_Handling use "soft";
 		
-		for Number_Of_Interrupts use "";
+		for Number_Of_Interrupts use "32";
 		
-		for Memories use ("", "");
+		for Memories use ("RAM", "FLASH");
 		
-		for Boot_Memory use "";
+		for Boot_Memory use "FLASH";
 		
-		for Mem_Kind ("RAM") use "";
-		for Address ("RAM") use "";
-		for Size ("RAM") use "";
+		for Mem_Kind ("RAM") use "ram";
+		for Address ("RAM") use "0x20000000";
+		for Size ("RAM") use "0x400";
 		
-		for Mem_Kind ("FLASH") use "";
-		for Address ("FLASH") use "";
-		for Size ("FLASH") use "";	
+		for Mem_Kind ("FLASH") use "rom";
+		for Address ("FLASH") use "0x00000000";
+		for Size ("FLASH") use "0x4000";	
 	end	Device_Configuration;
 	
 end MSPM0C1104_Example;
