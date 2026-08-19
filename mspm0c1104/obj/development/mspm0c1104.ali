@@ -46,12 +46,12 @@ P ZX
 RN
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U mspm0c1104%b		mspm0c1104.adb		308abf1c NE OO SU
+U mspm0c1104%b		mspm0c1104.adb		308abf1c NE OO SU IU
 
-D mspm0c1104.adb	20260817203113 308abf1c mspm0c1104%b
+D mspm0c1104.adb	20260818163423 308abf1c mspm0c1104%b
 D system.ads		20260701215315 b62447ca system%s
 G a e
 G c Z b b [mspm0c1104 standard 1 11 none]
 X 1 mspm0c1104.adb
-1U11*Mspm0c1104 1b11 4l5 4t15
+1U11*MSPM0C1104 1b11 4l5 4t15
 

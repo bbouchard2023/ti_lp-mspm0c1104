@@ -1,4 +1,4 @@
-procedure Mspm0c1104_Example is
+procedure MSPM0C1104_Example is
 begin
    null;
-end Mspm0c1104_Example;
+end MSPM0C1104_Example;

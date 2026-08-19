@@ -1,5 +1,5 @@
 with "config/mspm0c1104_config.gpr";
-project Mspm0c1104 is
+project MSPM0C1104 is
 
    for Source_Dirs use ("src/", "config/");
    for Object_Dir use "obj/" & Mspm0c1104_Config.Build_Profile;
@@ -21,4 +21,4 @@ project Mspm0c1104 is
       for Artifacts (".") use ("share");
    end Install;
 
-end Mspm0c1104;
+end MSPM0C1104;

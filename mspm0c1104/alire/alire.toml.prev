@@ -13,6 +13,3 @@ executables = ["mspm0c1104"]
 
 [[depends-on]]
 gnat_arm_elf = "^15.3.1"
-
-[[depends-on]]
-hal = "^1.0.0"

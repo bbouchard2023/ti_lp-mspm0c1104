@@ -43,33 +43,4 @@ hashes = [
 "sha256:163eb73f9eaa8ae3ac264c35b1a5edece640ede0060288e7d3ce78aeb4ffa826",
 ]
 url = "https://github.com/alire-project/GNAT-FSF-builds/releases/download/gnat-15.3.0-1/gnat-arm-elf-linux64-x86_64-15.3.0-1.tar.gz"
-[[solution.state]]
-crate = "hal"
-fulfilment = "solved"
-pinned = false
-transitivity = "direct"
-versions = "^1.0.0"
-[solution.state.release]
-description = "Hardware Abstraction Layer (HAL)"
-licenses = "BSD-3-Clause"
-long-description = "# hal\n\nHardware Abstraction Layer: interfaces definitions to abstract access to common\nhardware devices and protocols\n\nThis crate is a snapshot of the `hal` in [Ada Drivers\nLibrary](https://github.com/AdaCore/Ada_Drivers_Library/tree/master/hal/src).\n\nAny bug report, issue, contribution must be adressed to the [Ada Drivers\nLibrary](https://github.com/AdaCore/Ada_Drivers_Library/) repo.\n\n"
-maintainers = [
-"chouteau@adacore.com",
-]
-maintainers-logins = [
-"Fabien-Chouteau",
-]
-name = "hal"
-project-files = [
-"hal.gpr",
-]
-tags = [
-"embedded",
-"hal",
-"nostd",
-]
-version = "1.0.0"
-[solution.state.release.origin]
-commit = "084c64129b8993181d4078397bf022c7ea886c79"
-url = "git+https://github.com/Fabien-Chouteau/hal.git"
 
