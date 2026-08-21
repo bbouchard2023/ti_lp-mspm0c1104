@@ -8,6 +8,7 @@ project MSPM0C1104_Example is
 	for Main use ("mspm0c1104_example.adb");
 	for Target use "arm-elf";
 	for Runtime ("Ada") use "light-cortex-m0p";
+	for Languages use ("Ada", "ASM_CPP");
 
 	package Compiler is
 	  for Default_Switches ("Ada") use Mspm0c1104_Example_Config.Ada_Compiler_Switches;
@@ -40,4 +41,9 @@ project MSPM0C1104_Example is
 		for Size ("FLASH") use "0x4000";	
 	end	Device_Configuration;
 	
+	package Linker is
+		for Switches ("Ada") use ("-T", Project'Project_dir & "/src/link.ld",
+								 "-Wl,--print-memory-usage",
+								 "-Wl,--gc-sections");
+	end Linker;
 end MSPM0C1104_Example;
